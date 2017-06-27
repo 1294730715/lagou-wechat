@@ -1,1 +1,33 @@
-<view class="report-page">report</view>
+
+<view id="report">
+  <view class="report-header">
+    <view class="logo-bread"><image src="./imgs/bread.png" alt=""></image></view>
+    <view class="logo-yanzhi"><image src="./imgs/yanzhi.png" alt=""></image></view>
+    <view class="logo-me"><image src="./imgs/me.png" alt=""></image></view>
+  </view>
+ 
+  <!--swipe-->
+  
+  <view class="report-list">
+    <view class="list-title">
+      <view class="logo fl"><image src="./imgs/hot.png" alt=""></image></view>
+        <view class="text fl">言职精选-此刻最新最热的内容</view>
+      <view class="more">&gt</view>
+    </view>
+    <view class="list-content">
+      <view class="list-item">
+        <view class="pic"><image src="./imgs/list-pic.png" alt="no-pic"></image></view>
+        <view class="text">言职问答 | 新上线的产品接到很多用户的吐槽，要如何去处理？</view>
+      </view>
+      <view class="list-item">
+        <view class="pic"><image src="./imgs/list-pic.png" alt="no-pic"></image></view>
+        <view class="text">言职问答 | 新上线的产品接到很多用户的吐槽，要如何去处理？</view>
+      </view>
+      <view class="list-item">
+        <view class="pic"><image src="./imgs/list-pic.png" alt="no-pic"></image></view>
+        <view class="text">言职问答 | 新上线的产品接到很多用户的吐槽，要如何去处理？</view>
+      </view>
+    </view>
+
+  </view>
+</view>

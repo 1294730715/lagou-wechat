@@ -1,4 +1,80 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="jaja">haha</view>
+<view class="home-container">
+  <view class="top-search">
+    <view class="input">
+      <input type="text" placeholder="搜索职位/公司/商圈"/>
+    </view>
+    <view class="scan">
+      <image src="../../assets/imgs/scanning.png"></image>
+    </view>
+  </view>
+  <view class="swipe">
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="center-nav">
+    <view class="daily-task" >
+      <image src="./home/rcrw.png"></image>
+      <text>日常任务</text>
+    </view>
+    <view class="live" >
+      <image src="./home/zblv.png"></image>
+      <text>直播LIVE</text>
+    </view>
+    <view class="latest-jobs" >
+      <image src="./home/zxjw.png"></image>
+      <text>最新职位</text>
+    </view>
+    <view class="AI" >
+      <image src="./home/AIzc.png"></image>
+      <text>前端专场</text>
+    </view>
+  </view>
+  <view class="recommend">
+    <text>-为你推荐的好职位-</text>
+  </view>
+  <view class="home-list">
+   <view class="job-list" wx:for="{{jobData}}" wx:key="jobData">
+    <view class="job-item">
+      <view class="job-title">
+  <view class="job-name">{{item.positionName}}</view>
+  <view class="job-salary">{{item.salary}}</view>
+</view>
+<view class="job-about">
+  <view class="job-short">
+    <text class="city">{{item.city}}</text>
+    <text class="area">{{item.district}}</text>
+    <text class="exp">{{item.workYear}}</text>
+    <text class="degree">{{item.education}}</text>
+  </view>
+  <div class="job-time">{{item.formatCreateTime}}</div>
+</view>
+
+<view class="job-property">
+    <view v-for="item.positionLables" wx:for-item="lab">
+      <text>{{lab}}</text>
+    </view>
+</view>
+<view class="job-company">
+  <view class="logo"> <image src="http://www.lgstatic.com/{{item.companyLogo}}" alt="no-pic"></image></view>
+  <view class="text">
+    <view class="company-name">{{item.companyShortName}}</view>
+    <view class="company-status">
+      <text>{{item.financeStage}}</text>
+      <text>{{item.companySize}}</text>
+      <text>{{item.industryField}}</text>
+    </view>
+  </view>
+
+</view>
+  </view>
+ 
+    </view>
+  </view>
 </view>

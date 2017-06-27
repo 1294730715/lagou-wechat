@@ -1,1 +1,120 @@
 /**index.wxss**/
+
+.home-container .top-search{
+  z-index: 999;
+  position: fixed;
+  padding-top: 10rpx;
+  overflow: hidden;
+}
+.home-container .top-search .input {
+  float: left;
+  font-size: 14px;
+  margin: 0 21rpx;
+  border-radius: 30rpx;
+  background-color: #fff;
+}
+.home-container .top-search .input input{
+  width: 600rpx;
+  height: 40rpx;
+  padding-left: 30rpx;
+}
+.home-container .top-search .scan {
+  float: left;
+  padding-left: 20rpx;
+  padding-top: 6rpx;
+}
+.home-container .top-search .scan image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.home-container .swipe image {
+  width: 750rpx;
+  height: 392rpx;
+}
+.home-container .center-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-container .center-nav view {
+  flex: 1
+}
+.home-container .center-nav view image {
+  width: 100%;
+  height: 120rpx;
+  margin: 0;
+}
+.home-container .center-nav view text {
+  margin:0;
+  font-size: 26rpx;
+  font-family: "microsoft Yahei";
+  padding-left: 45rpx;
+  line-height: 30rpx;
+}
+.home-container .recommend {
+  margin-top: 35rpx;
+  background-color: rgb(248,249, 250);
+  line-height: 91rpx;
+  display: flex;
+  justify-content: center;
+}
+.home-container .recommend text {
+  font-size: 30rpx;
+}
+.home-container .job-list .job-item .job-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 35rpx;
+}
+.home-container .job-list .job-item .job-title .job-name {
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.home-container .job-list .job-item .job-title .job-salary {
+  color: rgb(255,116,82);
+  font-size: 30rpx;
+}
+.home-container .job-list .job-item .job-about {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  margin: 0 35rpx;
+  color: rgb(200,200, 200);
+}
+.home-container .job-list .job-item .job-about .job-short text {
+  padding-right: 10rpx;
+  border-right: 1rpx solid rgb(200,200, 200);
+}
+.home-container .job-list .job-item .job-about .job-short .area {
+  padding-left: 10rpx;
+}
+.home-container .job-list .job-item .job-about .job-short .exp {
+  padding-left: 10rpx;
+}
+.home-container .job-list .job-item .job-about .job-short .degree {
+  padding-left: 10rpx;
+  border-right: none;
+}
+.home-container .job-list .job-item .job-company {
+  display: flex;
+  padding-top: 20rpx;
+  margin: 0 35rpx;
+}
+.home-container .job-list .job-item .job-company .logo {
+  flex: 1;
+}
+.home-container .job-list .job-item .job-company .logo image {
+  width: 100%;
+  height: 100%;
+}
+.home-container .job-list .job-item .job-company .text {
+  flex: 8;
+  padding-left: 30rpx;
+}
+.home-container .job-list .job-item .job-company .text .company-name {
+  font-size: 30rpx;
+}
+.home-container .job-list .job-item .job-company .text .company-status {
+  font-size: 24rpx;
+  color: rgb(200,200, 200);
+}

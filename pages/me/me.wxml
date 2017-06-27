@@ -1,1 +1,29 @@
-<view class="me-page">me</view>
+<view id="me">
+  <view class="title">
+    <view class="avatar"><image src="./imgs/avatar.png" alt="no-pic"></image></view>
+    <view class="name">喜羊羊</view>
+    <view class="tips">羊村里最聪明的羊，村长的得力助手。</view>
+  </view>
+  <view class="content">
+    <view class="cv">
+      <view class="logo"><image src="./imgs/cv.png" alt="no-pic"></image></view>
+      <view class="text">简历</view>
+    </view>
+    <view class="secret">
+      <view class="logo"><image src="./imgs/secret.png" alt="no-pic"></image></view>
+      <view class="text">隐私设置</view>
+    </view>
+    <view class="collection">
+      <view class="logo"><image src="./imgs/collection.png" alt="no-pic"></image></view>
+      <view class="text">收藏</view>
+    </view>
+    <view class="feed-back">
+      <view class="logo"><image src="./imgs/feedback.png" alt="no-pic"></image></view>
+      <view class="text">意见反馈</view>
+    </view>
+    <view class="setting">
+      <view class="logo"><image src="./imgs/setting.png" alt="no-pic"></image></view>
+      <view class="text">设置</view>
+    </view>
+  </view>
+</view>

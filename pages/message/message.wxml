@@ -1,1 +1,15 @@
-<view class="message-page">message</view>
+<view class="message-page">
+<view class="message-header">消息列表</view>
+<view class="message-nav">
+  <image src="./message/jlzt.png" alt="no-pic"></image><text>简历状态</text>
+  <image src="./message/zwdt.png" alt=""></image><text>职位动态</text>
+  <image src="./message/yztz.png" alt=""></image><text>言职通知</text>
+</view>
+<view class="message-space"></view>
+<view class="message-item">
+      <view class="logo"><image src="./message/whosawme.png" alt=""></image></view>
+      <view class="text"><div class="title">谁看过我</div><div class="content">暂无新消息</div></view>
+      <view class="logo"><image src="./message/lg-logo.png" alt=""></image></view>
+      <view class="text"><div class="title">拉钩logo</div><div class="content">互联网新锐公司，高薪等你来拿</div></view>
+</view>
+</view>
