@@ -12,3 +12,9 @@
 + 布局采用Android端APP中的布局
 + 数据文件抓取的2017.06.23的数据
 + 通过微信API中的请求方式，对后端发送请求。然后前端渲染视图。
+
+## 项目截图
+### 首页
+![首页](./assets/imgs/screen/home.png)
+### 消息页
+![消息页](./assets/imgs/screen/message.png)
