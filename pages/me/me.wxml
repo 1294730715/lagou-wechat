@@ -1,9 +1,13 @@
 <view id="me">
   <view class="title">
+
     <view class="avatar"><image src="./imgs/avatar.png" alt="no-pic"></image></view>
-    <view class="name">喜羊羊</view>
-    <view class="tips">羊村里最聪明的羊，村长的得力助手。</view>
+    
+    <view class="name"> <text>喜羊羊</text></view>
+    <view class="tips"><text>羊村里最聪明的羊，村长的得力助手。</text></view>
+
   </view>
+    
   <view class="content">
     <view class="cv">
       <view class="logo"><image src="./imgs/cv.png" alt="no-pic"></image></view>

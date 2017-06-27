@@ -1,0 +1,68 @@
+#me .title {
+  height: 484rpx;
+  background-color: rgb(0, 179, 138);
+  /*display: flex;*/
+  /*justify-content: center;
+  align-items: center;*/
+} 
+#me .title .avatar {
+  display: flex;
+  justify-content: center;
+  padding-top: 100rpx;
+}
+#me .title .name {
+  display: flex;
+  justify-content: center;
+  padding-top: 60rpx;
+  color: #ffffff;
+  font-size: 36rpx;
+}
+#me .title .tips {
+  display: flex;
+  justify-content: center;
+  padding-top: 20rpx;
+  color: rgb(157, 244, 204);
+  font-size: 30rpx;
+}
+#me .title .avatar image {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 60rpx;
+}
+#me .content image {
+  height: 36rpx;
+  width: 36rpx;
+}
+#me .content .text {
+  padding-left: 42rpx;
+  width: 80%;
+}
+#me .content .cv {
+  display: flex;
+  justify-content: flex-start;
+  padding: 28rpx 42rpx;
+  border-bottom: 1rpx solid rgb(248,249, 250)
+}
+#me .content .secret {
+  display: flex;
+  justify-content: flex-start;
+  padding: 28rpx 42rpx;
+  border-bottom: 1rpx solid rgb(248,249, 250)
+}
+#me .content .collection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 28rpx 42rpx;
+  border-bottom: 1rpx solid rgb(248,249, 250)
+}
+#me .content .feed-back {
+  display: flex;
+  padding: 28rpx 42rpx;
+  justify-content: flex-start;
+  border-bottom: 1rpx solid rgb(248,249, 250)
+}
+#me .content .setting {
+  display: flex;
+  padding: 28rpx 42rpx;
+  justify-content: flex-start;
+}

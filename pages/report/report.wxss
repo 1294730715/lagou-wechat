@@ -1,0 +1,51 @@
+.report-header {
+  background-color: rgb(246, 246, 247);
+  display: flex;
+  justify-content: space-between;
+}
+.report-header view image {
+  height: 105rpx;
+  width: 105rpx;
+}
+
+.swipe image {
+  width: 750rpx;
+  height: 392rpx;
+}
+.report-list .list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.report-list .list-title .list-fl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.report-list .list-title image {
+  height: 70rpx;
+  width: 70rpx;
+  padding-top: 10rpx;
+}
+.report-list .list-title .more {
+  color: rgb(204, 204, 204);
+  font-size: 26rpx;
+  font-weight: bold;
+}
+
+.list-content .list-item image{
+  width: 750rpx;
+  height: 306rpx;
+}
+.list-content .list-item .text {
+  padding-top: 40rpx 0 20rpx 0;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.list-content .list-item .list-space {
+  height: 20rpx;
+  background-color: rgb(204, 204, 204);
+}
